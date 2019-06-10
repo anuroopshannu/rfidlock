@@ -3,7 +3,7 @@ from time import sleep
 from mfrc522 import SimpleMFRC522
 from pushbullet import Pushbullet
 
-pb = Pushbullet("o.vwYuQ41WVSNuAdANnXt3YqMCi9sZFPFM")
+pb = Pushbullet("*********")
 GPIO.setmode(GPIO.BOARD) 
 GPIO.setup(8, GPIO.OUT, initial=GPIO.HIGH)
 reader = SimpleMFRC522()
